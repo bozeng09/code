@@ -1,0 +1,79 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    // 编辑器设置
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 21,
+    "editor.fontLigatures": true,
+    "editor.tabSize": 4,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.wordWrapColumn": 79,
+    "files.encoding": "utf8",
+    "rewrap.autoWrap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+      {
+        "column": 79 // spacing of 1st column from left
+        // "color": "#c0790e" // orange, Go Vols!
+      }
+    ],
+    "simpleVim.yankHighlightBackgroundColor": "#ffff00",
+    // 命令行设置
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "color": "terminal.ansiGreen"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd",
+        "color": "terminal.ansiYellow"
+      },
+      "Git Bash": {
+        "source": "Git Bash",
+        "color": "terminal.ansiYellow"
+      }
+    },
+    "terminal.integrated.minimumContrastRatio": 1,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.fontSize": 14,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": ["--exitfirst", "--verbose", "tests"],
+    "autoDocstring.customTemplatePath": "./.env/i.mustache",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+      "--disable=C0415,C0103,C0116,R0913,W0221",
+      "--ignore=tests",
+      "--extension-pkg-whitelist=PyQt5"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+      "reportMissingImports": "none"
+    },
+    "cSpell.customDictionaries": {
+      "custom-dictionary-workspace": {
+        "name": "custom-dictionary-workspace",
+        "path": "${workspaceFolder}/.env/.cspell/custom-dictionary-workspace.txt",
+        "addWords": true,
+        "scope": "workspace"
+      }
+    },
+    "qtForPython.designer.path": "D:/devenv/miniconda3/envs/piv_dev/Lib/site-packages/qt5_applications/Qt/bin/designer.exe",
+    "qtForPython.uic.path": "D:/devenv/miniconda3/envs/piv_dev/Scripts/pyuic5.exe",
+    "qtForPython.rcc.path": "D:/devenv/miniconda3/envs/piv_dev/Scripts/pyrcc5.exe",
+    "prettier.printWidth": 79,
+    "markdown.preview.fontSize": 15
+  }
+}

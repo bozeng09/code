@@ -1,0 +1,31 @@
+{{! Aoitech Docstring Template }}
+{{#parametersExist}}
+
+Prev:
+{{#args}}
+    - {{var}} ({{typePlaceholder}}): {{descriptionPlaceholder}}
+{{/args}}
+{{#kwargs}}
+    - {{var}} ({{typePlaceholder}}): {{descriptionPlaceholder}}. Defaults to {{&default}}.
+{{/kwargs}}
+{{/parametersExist}}
+{{#exceptionsExist}}
+
+Raises:
+{{#exceptions}}
+    - {{type}}: {{descriptionPlaceholder}}
+{{/exceptions}}
+{{/exceptionsExist}}
+{{#returnsExist}}
+
+Post:
+{{#returns}}
+   - return ({{type}}): {{descriptionPlaceholder}}
+{{/returns}}
+{{/returnsExist}}
+{{#yieldsExist}}
+Yields:
+{{#yields}}
+    - {{descriptionPlaceholder}}
+{{/yields}}
+{{/yieldsExist}}
