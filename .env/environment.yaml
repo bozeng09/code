@@ -1,0 +1,12 @@
+name: piv_dev
+channels:
+  - defaults
+dependencies:
+  - autopep8=1.5.7=pyhd3eb1b0_0
+  - ffmpeg=4.2.2=he774522_0
+  - matplotlib=3.5.1=py39haa95532_0
+  - numpy=1.21.5=py39ha4e8547_0
+  - numpy-base=1.21.5=py39hc2deb75_0
+  - python=3.9.7=h6244533_1
+  - sqlite=3.36.0=h2bbff1b_0
+prefix: d:\devenv\miniconda3\envs\piv_dev
