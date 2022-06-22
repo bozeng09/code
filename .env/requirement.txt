@@ -1,0 +1,11 @@
+autopep8
+flake8
+pylint
+pytest
+sqlalchemy
+pytest-qt
+pyqt5
+pyqt5-tools
+pyqtwebengine
+pyqtgraph
+pandas
